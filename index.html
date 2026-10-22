@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">WebKita.</a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Buka menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-content">
+        <span class="tag">SELAMAT DATANG</span>
+        <h1>Wujudkan Ide Kreatifmu <span>Di Sini.</span></h1>
+        <p>
+          Website sederhana dengan tampilan modern,
+          nyaman digunakan, dan mudah dikembangkan.
+        </p>
+        <a href="#tentang" class="btn">Mulai Jelajahi →</a>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-icon">✦</div>
+        <h2>Kreatif. Modern. Simpel.</h2>
+        <p>Ide hebat dimulai dari langkah kecil.</p>
+      </div>
+    </section>
+
+    <section class="section" id="tentang">
+      <span class="tag">TENTANG KAMI</span>
+      <h2>Tempat Ide Menjadi Nyata</h2>
+      <p class="section-desc">
+        Kami percaya bahwa desain yang baik tidak harus rumit.
+        Buat sesuatu yang menarik, bermanfaat, dan mudah diakses.
+      </p>
+    </section>
+
+    <section class="section services" id="layanan">
+      <span class="tag">LAYANAN</span>
+      <h2>Apa yang Kami Tawarkan?</h2>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>Desain Kreatif</h3>
+          <p>Tampilan menarik dengan gaya modern dan minimalis.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>Website ringan, responsif, dan mudah dikembangkan.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3>Performa Optimal</h3>
+          <p>Pengalaman pengguna yang nyaman di berbagai perangkat.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="kontak">
+      <h2>Punya Ide Menarik?</h2>
+      <p>Mari mulai sesuatu yang hebat hari ini.</p>
+      <button class="btn" id="contactBtn">Hubungi Kami</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> WebKita. Dibuat dengan ♥</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
